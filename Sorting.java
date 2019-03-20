@@ -132,21 +132,5 @@ public class Sorting
             array[j+1] = key;
         }
     }
-
-    public static void main(String args[])
-    {
-        Integer[] tab = new Integer[6];
-        tab[0] = 10;
-        tab[1] = 9;
-        tab[2] = 44;
-        tab[3] = 7;
-        tab[4] = 6;
-        tab[5] = 12;
-        insertionSort(tab);
-        for(Integer e : tab)
-        {
-            System.out.println(e);
-        }
-    }
 }
 
